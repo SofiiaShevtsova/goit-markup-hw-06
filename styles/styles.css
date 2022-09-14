@@ -397,25 +397,36 @@ textarea::placeholder{
 }
 
 .check-icon {
-  display: inline-block;
+  display: flex;
   width: 15px;
   height: 15px;
   margin-right: 8px;
   border: 2px solid var(--first-text-color);
 }
 
-.checkbox:checked + .policy>div {
-  border: var(--accent-color);
-  background-origin: border-box;
-  background-color: var(--accent-color);
-  background-image: url("../images/svg/check.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+.check{
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   fill: var(--white-text-color);
 }
 
+.checkbox:checked + .policy>div {
+  border: none;
+  background-origin: border-box;
+  background-color: var(--accent-color);
+  /* background-image: url("../images/svg/check.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+ fill: var(--white-text-color); */
+}
+
 .policy {
+  display: flex;
+  align-items: center;
 font-size: 14px;
   line-height: 1.71;
 }
