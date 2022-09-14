@@ -365,6 +365,7 @@ top: 25%;
 textarea.modal-input {
   padding: 15px;
   resize: none;
+  overflow: auto;
 }
 textarea::placeholder{
     font-size: 12px;
