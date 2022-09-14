@@ -363,9 +363,11 @@ top: 25%;
 }
 
 textarea.modal-input {
+  height: 120px;
   padding: 15px;
   resize: none;
   overflow: auto;
+
 }
 textarea::placeholder{
     font-size: 12px;
